@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  rabbitmq:
+    host: 192.168.0.69
+    port: 5672
+    username: tiger
+    password: 1234

@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    database: mysql
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/RANK_DB?useSSL=false&serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: 1234
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: tiger
+    password: 1234
+
+
+link:
+  S1Server: http://192.168.0.107:8081/exam/
